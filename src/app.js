@@ -3,7 +3,7 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 const app = express();
 // this is the standard middleware for CORS
-app.use(
+app.use( 
   cors({
     origin: [
       "http://localhost:5173",
